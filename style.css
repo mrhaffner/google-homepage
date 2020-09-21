@@ -22,8 +22,22 @@ body {
 
 .content {
     justify-content: center;
-    align-content: center;
     margin: auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
 }
 
 .footer {
