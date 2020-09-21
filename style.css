@@ -14,21 +14,30 @@ body {
     padding-left: 15px;
 }
 
- .header {
+.header {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
 }
 
 .content {
+    height: 2000px;
+}
+
+.logo {
+    display: flex;
     justify-content: center;
-    margin: auto;
+    margin-top: 12.3em;
 }
 
 form {
     display: flex;
     justify-content: center;
     margin: 30px;
+}
+
+form:hover {
+
 }
 
 .buttons {
@@ -38,16 +47,40 @@ form {
 
 button {
     margin-left: 10px;
+    padding: 10px 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+button:active, button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     background: #f2f2f2;
-    height: 2.5em;
     align-items: center;
     font-size: 14px;
-    
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #e4e4e4;
 }
 
 .footer_link {
@@ -67,14 +100,24 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-header a:hover {
-    opacity: 0.7;
+.header_start {
+    color: #000;
+    opacity: 0.9
+}
+
+.header_end:hover {
+    opacity: 0.85;
 } 
 
 .footer a {
-    color: #5f6368;;
+    color: #5f6368;
 }
 
 .footer a:active {
     color: #dd4b39;
+}
+
+.sign_in {
+    background-color: #4285f4;
+    color: white;
 }
