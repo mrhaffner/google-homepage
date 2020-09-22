@@ -17,7 +17,22 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.header_start {
+    color: #000;
+    opacity: 0.9;
     padding-top: 15px;
+    padding-left: 2px;
+}
+
+.header_hover:hover {
+    opacity: 0.85;
+} 
+
+.header_end {
+    padding-top: 8px;
+    padding-right: 20px;
 }
 
 .content {
@@ -100,15 +115,6 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-.header_start {
-    color: #000;
-    opacity: 0.9
-}
-
-.header_hover:hover {
-    opacity: 0.85;
-} 
-
 .footer a {
     color: #5f6368;
 }
@@ -121,11 +127,16 @@ a:hover, a:active {
     background-color: #4285f4;
     color: white;
     font-weight: bold;
-    border-radius: 2px;
-    padding: 6px 12px;
+    border-radius: 3px;
+    padding: 7.5px 13px;
     font-size: 13px;
+    
 }
 
 .sign_in:active {
     background-color: #3c78dc;
+}
+
+.app {
+   vertical-align: middle;
 }
