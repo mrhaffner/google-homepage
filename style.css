@@ -153,3 +153,9 @@ form:hover {
     font: 16px arial, sans-serif;
     width: 490px
 }
+
+.search_icon {
+    height: 22px; 
+    width: auto;
+    margin: 11px 0 0 -40px
+}
